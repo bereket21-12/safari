@@ -80,7 +80,6 @@ function Page() {
             marginTop: 4,
           }}
         >
-          {/* Spider home icon group */}
           <Box
             sx={{
               position: "relative",
@@ -90,7 +89,7 @@ function Page() {
               alignItems: "center",
               justifyContent: "center",
               flexShrink: 0,
-              order: { xs: 1, md: 2 }, // swapped order
+              order: { xs: 1, md: 2 },
               marginBottom: { xs: 3, md: 0 },
             }}
           >
