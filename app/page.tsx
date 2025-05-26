@@ -167,7 +167,6 @@ function Page() {
               <ArticleIcon sx={{ color: green[500], fontSize: 32 }} />
             </Box>
           </Box>
-          {/* End spider home icon group */}
           <Box
             sx={{
               display: "flex",
@@ -179,7 +178,7 @@ function Page() {
               backgroundColor: "#fff",
               borderRadius: 2,
               boxShadow: 1,
-              order: { xs: 2, md: 1 }, // swapped order
+              order: { xs: 2, md: 1 },
             }}
           >
             <TextField
@@ -192,7 +191,6 @@ function Page() {
                 backgroundColor: "#f5f5f5",
                 borderRadius: 1,
               }}
-              placeholder="Search transactions"
               InputProps={{
                 style: { color: "#222" },
               }}
